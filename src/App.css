@@ -1,0 +1,112 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+  height: 40px;
+  border: 1px solid #1e90ff;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ffa500;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e90ff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffa500;
+}
+
+.weather-container {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.city {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.coords {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.temperature {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #ffa500;
+}
+
+.description {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.detail {
+  font-size: 16px;
+  color: #aaa;
+  margin: 5px 0;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}
+
+.loading {
+  color: #ffa500;
+  font-size: 18px;
+  margin: 10px 0;
+}
